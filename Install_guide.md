@@ -33,3 +33,11 @@ Install Isaac Sim
 ```bash
 pip install "isaacsim[all,extscache]==5.0.0" --extra-index-url https://pypi.nvidia.com
 ```
+### Verifying the Isaac Sim Installation
+```bash
+# 1. activate conda virtual environment
+conda activate
+# 2. run isaac sim.
+#    The first running takes more time. 
+isaacsim
+```
