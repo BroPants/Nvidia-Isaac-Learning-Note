@@ -79,4 +79,13 @@ python scripts/tutorials/00_sim/create_empty.py
 ![Isaaclab_startup](./pic/isaaclab_startup.png)
 ![Open Simulation Settings](./pic/simulation_settings.png)
 
-到这里，Isaac Sim和Isaac Lab就都准备好了！🎉下面可以开始尝试一些简单的机器人训练，看看功能是否都正常🤖
+到这里，Isaac Sim和Isaac Lab就都准备好了！🎉下面可以开始尝试一些简单的机器人训练，看看功能是否都正常🤖。例如，可以训练蚂蚁机器人。
+```bash
+# --headless 会隐藏Isaac sim 的UI界面，训练速度也更快。
+# 如果想看到可视化的训练过程，则在执行的时候不加--headless即可
+./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Ant-v0 --headless
+```
+另外，也可以用类似的执行训练机器狗
+```bash
+./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Velocity-Rough-Anymal-C-v0 --headless
+```
