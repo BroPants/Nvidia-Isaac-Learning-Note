@@ -89,3 +89,5 @@ python scripts/tutorials/00_sim/create_empty.py
 ```bash
 ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Velocity-Rough-Anymal-C-v0 --headless
 ```
+训练机器狗的仿真环境如图。
+![robot dog](./pic/robot_dog.png)
